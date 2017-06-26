@@ -7,5 +7,6 @@ li.textContent = 'Fizz';
 else if(i % 5 == 0)
 li.textContent = 'Buzz';
 else
-    li.textContent = i+1 '回数';
-document.getElementById('list').appendChild();}
+    li.textContent = i + '回数';
+document.getElementById('list').appendChild(li);
+}
